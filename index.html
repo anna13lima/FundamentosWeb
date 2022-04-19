@@ -5,36 +5,75 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Meu Perfil</title>
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <ul>
+    <ul id="menu">
       <li><a href="index.html">Home</a></li>
       <li><a href="contato.html">Contato</a></li>
     </ul>
-    <h1>Sobre Giovanna</h1>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, rerum?
-      ipsum dolor sit, amet consectetur adipisicing elit. Amet, nesciunt
-      quisquam. Ducimus magnam id vitae recusandae autem est excepturi nostrum
-      laborum. Magnam dolores voluptate voluptatem dolorem iusto officia sit
-      ipsam.
-    </p>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit laborum
-      asperiores vero, quas dignissimos deserunt, officia nobis eum tempore
-      velit porro ducimus corrupti? Nobis, eligendi dolor. Consequuntur eos
-      neque delectus.
-    </p>
-    <img src="assert/minhafoto.jpg" alt="foto do criador" />
-    <h2>Meu Video Preferido:</h2>
-    <iframe
-      width="560"
-      height="315"
-      src="https://www.youtube.com/embed/ItZgwRYYUL8"
-      title="YouTube video player"
-      frameborder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowfullscreen
-    ></iframe>
+    <h1 class="center">Sobre Giovanna</h1>
+
+    <div class="container">
+      <div>
+        <img
+          class="br-50 w-300 p-30"
+          src="assert/minhafoto.jpg"
+          alt="foto do criador"
+        />
+      </div>
+
+      <div class="p-30">
+        <p class="justify">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus,
+          rerum? ipsum dolor sit, amet consectetur adipisicing elit. Amet,
+          nesciunt quisquam. Ducimus magnam id vitae recusandae autem est
+          excepturi nostrum laborum. Magnam dolores voluptate voluptatem dolorem
+          iusto officia sit ipsam.
+        </p>
+        <p class="justify">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit laborum
+          asperiores vero, quas dignissimos deserunt, officia nobis eum tempore
+          velit porro ducimus corrupti? Nobis, eligendi dolor. Consequuntur eos
+          neque delectus.
+        </p>
+      </div>
+    </div>
+
+    <h2 class="center">Meu Video Preferido:</h2>
+
+    <div class="container mb-50">
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/ItZgwRYYUL8"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </div>
+    <hr />
+    <footer class="center">
+      <div class="container">
+        <a href="https://github.com/anna13lima" target="_blank">
+          <img
+            class="tm-social p-30"
+            src="assert/github.png"
+            alt="logo fo github"
+          />
+        </a>
+
+        <a href="https://www.linkedin.com/in/giovanna-ferraz/" target="_blank">
+          <img
+            class="tm-social p-30"
+            src="assert/linkedin.png"
+            alt="logo do linkedin"
+          />
+        </a>
+      </div>
+
+      <p>Todos os direitos reservados para Giovanna Ferraz &copy</p>
+    </footer>
   </body>
 </html>
